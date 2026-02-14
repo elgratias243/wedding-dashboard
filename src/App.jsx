@@ -273,7 +273,7 @@ export default function Dashboard() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 36, flexWrap: "wrap", gap: 12 }}>
           <div>
             <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(24px,5vw,36px)", fontWeight: 400, color: C.text, margin: 0 }}>
-              Dashboard — <span style={{ color: C.gold }}>Gabriella & Deogratias</span>
+              Dashboard — <span style={{ color: C.gold }}>Deogratias & Gabriella</span>
             </h1>
             <p style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 15, color: C.textSoft, margin: "6px 0 0" }}>Mariage le 10 Avril 2026 · Suivi des réponses en temps réel</p>
           </div>
