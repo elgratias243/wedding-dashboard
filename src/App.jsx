@@ -283,10 +283,10 @@ export default function Dashboard() {
         </div>
 
         <div style={{ display: "flex", gap: 16, marginBottom: 28, flexWrap: "wrap" }}>
-          <StatCard icon="👥" label="Réponses reçues" value={totalResponses} sub={`${allGuests.length} personnes`} color={C.accent3} />
-          <StatCard icon="💐" label="Présents" value={acceptedCount} sub="confirmés" color={C.green} />
-          <StatCard icon="🌹" label="Absents" value={refusedCount} sub="déclinés" color={C.red} />
-          <StatCard icon="👁️" label="Consultations URL" value={visits} sub="visites totales" color={C.gold} />
+          <StatCard icon="" label="Réponses reçues" value={totalResponses} sub={`${allGuests.length} personnes`} color={C.accent3} />
+          <StatCard icon="" label="Présents" value={acceptedCount} sub="confirmés" color={C.green} />
+          <StatCard icon="" label="Absents" value={refusedCount} sub="déclinés" color={C.red} />
+          <StatCard icon="" label="Consultations URL" value={visits} sub="visites totales" color={C.gold} />
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 20, marginBottom: 28 }}>
